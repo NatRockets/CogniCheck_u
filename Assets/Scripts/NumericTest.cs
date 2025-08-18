@@ -22,7 +22,7 @@ public class NumericTest : MonoBehaviour
     private int rightAnswers;
     private int questionCounter;
 
-    private List<NumericQuestion> currentTestAssets = new();
+    private List<NumericQuestion> currentTestAssets = new List<NumericQuestion>();
 
     private void Awake()
     {
