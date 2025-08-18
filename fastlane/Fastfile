@@ -140,7 +140,7 @@ platform :ios do
       project: "#{ENV['IOS_BUILD_PATH']}/iOS/Unity-iPhone.xcodeproj",
       scheme: 'Unity-iPhone',
       xcargs: '-allowProvisioningUpdates',
-      destination: 'generic/platform=iOS', # Виправити формат
+      #destination: 'generic/platform=iOS', # Виправити формат
       #destination: "platform=iOS Simulator, id=0FA23C4A-0E4A-4F03-9F6C-32122603E2DA, OS=16.2, name=iPhone 14"
       export_options: {
         method: 'app-store',
@@ -155,4 +155,5 @@ platform :ios do
   end
 
 end
+
 
