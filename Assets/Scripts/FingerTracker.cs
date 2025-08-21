@@ -78,7 +78,6 @@ public class FingerTracker : MonoBehaviour
 
     public void SetResult(out int good, out int bad, out int ok)
     {
-        Debug.Log($"SetResult: {timeTotal}, good: {timeGood}, ok: {timeOk}");
         good = (int) (timeGood/timeTotal * 100f);
         ok = (int) (timeOk/timeTotal * 100f);
         bad = 100 - good - ok;
